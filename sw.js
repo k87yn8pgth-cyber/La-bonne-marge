@@ -1,12 +1,11 @@
 /* Cache hors-ligne de La Bonne Marge. Servir depuis HTTPS ou localhost. */
 const CACHE_NAME = 'la-bonne-marge-pwa-v1';
 const BASE = self.registration.scope;
-const SHELL = new URL('rentabilite-immobiliere.html', BASE).href;
+const SHELL = new URL('index.html', BASE).href;
 const ASSETS = [
   SHELL,
   new URL('manifest.webmanifest', BASE).href,
-  new URL('icon-512.png', BASE).href,
-  new URL('icon-180.png', BASE).href
+  new URL('icone.png', BASE).href,
 ];
 
 self.addEventListener('install', event => {
