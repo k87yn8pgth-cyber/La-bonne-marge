@@ -1,26 +1,15 @@
 {
-  "id": "./rentabilite-immobiliere.html",
+  "id": "./index.html",
   "name": "La Bonne Marge — calcul de rentabilité immobilière",
   "short_name": "La Bonne Marge",
   "description": "Calculateur local de rentabilité immobilière.",
   "lang": "fr-BE",
-  "start_url": "./rentabilite-immobiliere.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f3ed",
   "theme_color": "#17372e",
   "icons": [
-    {
-      "src": "./icon-180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    }
+    { "src": "./icone.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
   ]
 }
